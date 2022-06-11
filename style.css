@@ -1,7 +1,30 @@
 body {
-    background: powderblue;
+    background: url("/Users/jaredm/Desktop/darkmountain.jpeg") no-repeat center center fixed;
+    background-size: cover;
 }
-h1 {
+#info nav {
+    background-color: rgb(93, 105, 117);
     font-family: verdana;
-    text-align: center;
+    color: white;
 }
+#name h1 {
+    margin: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li a {
+    margin: 0 1rem;
+    color: #FF6500;
+}
+nav ul li a:hover {
+    background-color: rgb(111, 118, 118);
+}
+
